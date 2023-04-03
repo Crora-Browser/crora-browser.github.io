@@ -27,6 +27,10 @@
             position: relative; 
             top: 14px; /* Move it down */
         }
+        ._icon{
+            position: relative; 
+            top: 10px; /* Move it down */
+        }
     </style>
     {% include head-custom.html %}
 
@@ -45,8 +49,8 @@
 
             <section id="downloads">
                 {% if site.show_downloads %}
-                <a href="{{ site.crora.exe_url }}" class="btn"><img src="../downloads.png">Download as (setup) .exe</a>
-                <a href="{{ site.crora.zip_url }}" class="btn">Download as (original) .zip</a>
+                <a href="{{ site.crora.exe_url }}" class="btn"><img class="_icon" src="../downloads.png">Download as (setup) .exe</a>
+                <a href="{{ site.crora.zip_url }}" class="btn"><img class="_icon" src="../execute.png">Download as (original) .zip</a>
                 {% endif %}
             </section>
         </div>

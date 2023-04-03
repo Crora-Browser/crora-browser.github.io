@@ -3,5 +3,6 @@ plugins:
 - jekyll-remote-theme
 
 title: Crora Browser
+email: crora@duck.com
 description: Simple, Privacy Based, Ethical Hacking Browser
 show_downloads: true

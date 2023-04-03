@@ -47,3 +47,9 @@ As We Talked early
 
 > **Warning**
 > Both the website and the Browser is currently under development, you can expect alpha releases soon.
+
+---
+
+Copyright © Pradosh 2023 - A Software Created by Pradosh
+
+Project started at Wednesday, March 8, 2023, 8:41:48 PM (Indian Standard Time)

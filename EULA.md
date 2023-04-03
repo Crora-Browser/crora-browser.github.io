@@ -39,4 +39,5 @@ End User License Agreement (EULA) for Crora Browser
  This Agreement constitutes the entire agreement between the parties with respect to the use of the Software and supersedes all prior or contemporaneous communications and proposals, whether oral or written, between the parties.
 
 ---
+
 [<< Back to Main Page](crora-browser.github.io)

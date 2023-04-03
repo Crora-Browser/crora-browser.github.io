@@ -1,0 +1,16 @@
+.list--icon {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.list--icon > li:before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background-image: url("{{ '/assets/images/bullet.png' | relative_url }}");
+  background-size: cover;
+  vertical-align: middle;
+}

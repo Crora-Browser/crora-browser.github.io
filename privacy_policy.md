@@ -36,4 +36,4 @@ If you have any questions or concerns about our privacy policy or how we handle 
 
 ---
 
-[<< Back to Main Page](crora-browser.github.io)
+[<< Back to Main Page](https://crora-browser.github.io/)

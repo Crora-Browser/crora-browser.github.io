@@ -41,3 +41,5 @@ End User License Agreement (EULA) for Crora Browser
 ---
 
 [<< Back to Main Page](https://crora-browser.github.io/)
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcrora-browser.github.io%2FEULA&count_bg=%233498DB&title_bg=%23434343&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](#)

@@ -38,4 +38,4 @@ If you have any questions or concerns about our privacy policy or how we handle 
 
 [<< Back to Main Page](https://crora-browser.github.io/) 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcrora-browser.github.io&count_bg=%233498DB&title_bg=%23434343&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcrora-browser.github.io%2Fprivacy_policy&count_bg=%233498DB&title_bg=%23434343&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](#)

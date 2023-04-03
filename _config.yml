@@ -11,3 +11,11 @@ show_downloads: true
 crora:
   exe_url: https://github.com/Crora-Browser/Software/releases/latest/download/Crora_Setup.exe
   zip_url: https://github.com/Crora-Browser/Software/releases/latest/download/Crora_Browser.zip
+  
+nav:
+  - title: Crora Browser
+    url: /
+  - title: EULA | Crora Browser
+    url: /EULA/
+  - title: Privacy Policy | Crora Browser
+    url: /privacy_policy/

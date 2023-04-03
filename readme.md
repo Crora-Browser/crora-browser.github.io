@@ -57,7 +57,7 @@ Copyright © Pradosh 2023 - A Software Created by Pradosh
 Project started at Wednesday, March 8, 2023, 8:41:48 PM (Indian Standard Time)
 </p>
 <p align="center">
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcrora-browser.github.io&count_bg=%233498DB&title_bg=%23434343&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true"/></a>
+<a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcrora-browser.github.io&count_bg=%233498DB&title_bg=%23434343&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true"/></a>
 </p>
 
 ---

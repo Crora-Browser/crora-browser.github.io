@@ -7,3 +7,7 @@ title: Crora Browser
 email: crora@duck.com
 description: Simple, Privacy Based, Ethical Hacking Browser
 show_downloads: true
+
+crora:
+  exe_url: https://github.com/Crora-Browser/Software/releases/latest/download/Crora_Setup.exe
+  zip_url: https://github.com/Crora-Browser/Software/releases/latest/download/Crora_Browser.zip

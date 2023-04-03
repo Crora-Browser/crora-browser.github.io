@@ -34,6 +34,7 @@
         .search-container {
           display: flex;
           justify-content: center;
+          margin-top: 70px;
         }
 
         #search-form {
@@ -45,8 +46,10 @@
           padding: 5px;
           border-radius: 5px 0 0 5px;
           border: none;
-          width: 200px;
+          width: 400px;
+          height: 30px;
           font-size: 16px;
+          background: linear-gradient(to bottom, #1B1B1B 50%, #101010 50%)
         }
 
         #search-input:focus {
@@ -54,17 +57,17 @@
         }
 
         button[type="submit"] {
-          background-color: #4285f4;
+          background: linear-gradient(to bottom, #3498db 50%, #3367d6 50%);
           color: white;
           border: none;
           border-radius: 0 5px 5px 0;
-          padding: 5px 10px;
+          padding: 11px 10px;
           cursor: pointer;
           font-size: 16px;
         }
 
         button[type="submit"]:hover {
-          background-color: #3367d6;
+          background: linear-gradient(to bottom, #318dca 50%, #2d5abb 50%);
         }
 
     </style>
@@ -87,12 +90,9 @@
     </header>
 
     <div class="container">
-        <!-- <section id="main_content">
-            {{ content }}
-        </section> -->
         <div class="search-container">
             <form id="search-form" action="https://duckduckgo.com/" method="GET">
-                <input type="text" id="search-input" name="q" placeholder="Search DuckDuckGo">
+                <input type="text" id="search-input" name="q" placeholder=" Search DuckDuckGo">
                 <button type="submit">Search</button>
             </form>
         </div>

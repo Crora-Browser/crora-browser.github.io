@@ -29,7 +29,7 @@ As We Talked early
 
 ### > Support for Tor Proxy
 
-**Get an extra layer protection with Tor Proxy in Crora, don't let your personal information to be stoled from you!**
+**Get an extra layer protection with Tor Proxy in Crora, don't let your personal information to be stolen from you!**
 
 ![tor-support](https://user-images.githubusercontent.com/69463173/229423424-984eb532-7637-4231-8dd2-ec54c4fce3b4.png)
 

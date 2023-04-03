@@ -33,3 +33,7 @@ We reserve the right to modify or update our privacy policy at any time. If we m
 ### Contact Us
 
 If you have any questions or concerns about our privacy policy or how we handle your personal information, please contact us at crora@duck.com.
+
+---
+
+[<< Back to Main Page](crora-browser.github.io)

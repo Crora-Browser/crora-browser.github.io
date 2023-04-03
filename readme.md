@@ -42,4 +42,4 @@ As We Talked early
 
 ![both](https://user-images.githubusercontent.com/69463173/229422876-0761928c-37d5-40d5-bf13-48a0442002a8.png)
 
-### Currently under Development
+> WARNING: Both the website and the Browser is currently under development, you can expect alpha releases soon.

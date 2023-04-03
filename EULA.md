@@ -40,4 +40,4 @@ End User License Agreement (EULA) for Crora Browser
 
 ---
 
-[<< Back to Main Page](crora-browser.github.io)
+[<< Back to Main Page](https://crora-browser.github.io/)

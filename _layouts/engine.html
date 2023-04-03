@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+        * {
+           -crora-user-select: none; /* Crora Browser */
+           -webkit-user-select: none; /* Chrome/Safari */
+           -moz-user-select: none; /* Firefox */
+           -ms-user-select: none; /* IE/Edge */
+           user-select: none; /* Non-prefixed version */
+        }
+        #a-title{
+            color: #3498db;
+        }
+        h2, h3, h4, h5, h6{
+            color: #3498db;
+        }
+        hr{
+            border-color: #3498db;
+        }
+        .crora-logo{
+            position: relative; 
+            top: 14px; /* Move it down */
+        }
+        ._icon{
+            position: relative; 
+            top: 5px; /* Move it down */
+        }
+        .search-container {
+          display: flex;
+          justify-content: center;
+        }
+
+        #search-form {
+          display: flex;
+          align-items: center;
+        }
+
+        #search-input {
+          padding: 5px;
+          border-radius: 5px 0 0 5px;
+          border: none;
+          width: 200px;
+          font-size: 16px;
+        }
+
+        #search-input:focus {
+          outline: none;
+        }
+
+        button[type="submit"] {
+          background-color: #4285f4;
+          color: white;
+          border: none;
+          border-radius: 0 5px 5px 0;
+          padding: 5px 10px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+          background-color: #3367d6;
+        }
+
+    </style>
+    {% include head-custom.html %}
+
+    {% seo %}
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a id="a-title" href="{{ '/' | relative_url }}">
+                <h1 style="color: #3498db;"><img class="crora-logo" src="favicon.png" width="48" height="48">{{ site.title | default: site.github.repository_name }}</h1>
+            </a>
+            <h2>{{ site.description | default: site.github.project_tagline }}. Contact Mail: <a target="_blank" href="mailto:crora@duck.com">crora@duck.com</a></h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- <section id="main_content">
+            {{ content }}
+        </section> -->
+        <div class="search-container">
+            <form id="search-form" action="https://duckduckgo.com/" method="GET">
+                <input type="text" id="search-input" name="q" placeholder="Search DuckDuckGo">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

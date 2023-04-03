@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy | Crora Browser
+---
+
 Privacy Policy for Crora Browser
 --------------------------------
 

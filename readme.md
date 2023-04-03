@@ -6,4 +6,4 @@ As We Talked early
 
 - Better speed than chrome
 
-### Currently under Developement
+### Currently under Development

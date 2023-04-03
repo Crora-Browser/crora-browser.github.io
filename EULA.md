@@ -1,3 +1,8 @@
+---
+layout: default
+title: Example Page
+---
+
 End User License Agreement (EULA) for Crora Browser
 ---------------------------------------------------
 

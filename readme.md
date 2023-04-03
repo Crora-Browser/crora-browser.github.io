@@ -5,3 +5,5 @@ This is a Ethical Hacking browser, it's has extreme privacy, even the websites y
 As We Talked early
 
 - Better speed than chrome
+
+### Currently under Developement

@@ -27,9 +27,13 @@
             position: relative; 
             top: 14px; /* Move it down */
         }
-        ._icon img{
+        ._icon{
             position: relative; 
             top: 5px; /* Move it down */
+        }
+        .buttontext{
+            position: relative; 
+            bottom: 5px; /* Move it up */
         }
     </style>
     {% include head-custom.html %}
@@ -49,9 +53,9 @@
 
             <section id="downloads">
                 {% if site.show_downloads %}
-                <a href="{{ site.crora.exe_url }}" class="btn"><img class="_icon" src="../downloads.png"> Download as (setup) .exe</a>
-                <a href="{{ site.crora.zip_url }}" class="btn"><img class="_icon" src="../execute.png"> Download as (original) .zip</a>
-                <a href="https://github.com/sponsors/pradosh-arduino/" class="btn"><img class="_icon" src="../sponsor.png"> Sponsor Me!</a>
+                <a href="{{ site.crora.exe_url }}" class="btn"><img class="_icon" src="../downloads.png"><span class="buttontext"> Download as (setup) .exe</span></a>
+                <a href="{{ site.crora.zip_url }}" class="btn"><img class="_icon" src="../execute.png"><span class="buttontext"> Download as (original) .zip</span></a>
+                <a href="https://github.com/sponsors/pradosh-arduino/" class="btn"><img class="_icon" src="../sponsor.png"><span class="buttontext"> Sponsor Me!</span></a>
                 {% endif %}
             </section>
         </div>

@@ -97,6 +97,13 @@
                 <button type="submit">Search</button>
             </form>
         </div>
+        {% assign latest_news = site.news | first %}
+        <div class="news-item">
+            <h2>{{ latest_news.title }}</h2>
+            <!-- <img src="{{ latest_news.image }}" alt="{{ latest_news.title }}"> -->
+            <p>{{ latest_news.content }}</p>
+            <small>{{ latest_news.date | date_to_string }}</small>
+        </div>
     </div>
 </body>
 

@@ -9,8 +9,8 @@
     <script>
             var i = 0;
             var speed = 70; // speed of typing (in milliseconds)
-            function typeWriter(txt) {
-                // document.getElementById("typewriter").innerHTML = ""
+            function typeWriter() {
+                var txt = 'Experience the Internet without boundaries with Crora Browser.';
                 if (i < txt.length) {
                     document.getElementById("typewriter").innerHTML += txt.charAt(i);
                     i++;
@@ -24,17 +24,7 @@
                 }
             }
             window.onload = function () {
-                onloaded()
-            }
-
-            function onloaded(){ // Looping code
-                typeWriter('Experience \'the Internet\' without boundaries with Crora Browser.')
-                setTimeout(onloaded, 3000)
-                typeWriter('Experience \'privacy\' without boundaries with Crora Browser.')
-                setTimeout(onloaded, 3000)
-                typeWriter('Experience \'speed\' without boundaries with Crora Browser.')
-                setTimeout(onloaded, 3000)
-                onloaded()
+                typeWriter();
             }
     </script>
     <style>

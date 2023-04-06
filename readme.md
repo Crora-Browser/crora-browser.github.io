@@ -1,11 +1,11 @@
 ## Introduction~()
-This is a Ethical Hacking browser, it has extreme privacy, even the websites you visit don't know which os you are on, no information of you is taken, don't think it has low performance it is faster than chrome and the settings in customizable like it offers you settings that are not found in other browser and it has a lot more features, like good gui, but not the best because you don't need to waste your precious resources for a fancy GUI.
+This is a Ethical Hacking browser, it has extreme privacy, even the websites you visit don't know which os you are on, no information of you is taken. Don't think it has low performance it is faster than chrome and the settings are customizable like it offers you settings that are not found in other browsers and it has a lot more features, like good GUI, but not the best because you don't need to waste your precious resources for a fancy GUI.
 
 > **Note**
 > Please look at [EULA](https://crora-browser.github.io/EULA) - [Privacy Policy](https://crora-browser.github.io/privacy_policy) before you proceed.
 
 ## Our Mission~()
-Our Mission is to stop other company using your information as money without your knowledge and some small companies who track you, sometimes gets leaked with your personal information, our browser is made to give you 100% privacy and let you decide, what you do on the internet, most of the software that you use get some sort of information about you ranging from what computer you're using to what is you IP, Location, ISP etc. So we are hoping that we can change has much as people possible to privacy focused browser. We think you will help us.
+Our Mission is to stop other company using your information as money without your knowledge and some small companies who track you, sometimes gets leaked with your personal information. Our browser is made to give you 100% privacy and let you decide what you do on the internet, most of the software that you use get some sort of information about you ranging from what computer you're using to what is you IP, Location, ISP etc. So we are hoping that we can change as much as people possible to privacy focused browser. We think you will help us.
 
 ---
 
@@ -27,7 +27,7 @@ Our Mission is to stop other company using your information as money without you
 
 ### > Contains Extreme, I mean, Extreme Privacy
 
-**Not even your cookies, histories, personal information is saved apart from the websites that you visit (websites may take your information)**
+**Not even your cookies, histories, personal information is saved, apart from the websites that you visit (websites may take your information)**
 
 ### > Support for Tor Proxy
 
@@ -35,14 +35,14 @@ Our Mission is to stop other company using your information as money without you
 
 ![tor-support](https://user-images.githubusercontent.com/69463173/229423424-984eb532-7637-4231-8dd2-ec54c4fce3b4.png)
 
-### > Almost Never fails to out perfom other browsers
+### > Almost Never fails to out perform other browsers
 
-**Even if it can't keepup it can keep up to the speed of normal browser, never goes below that**
+**Even if it can't keep up, it can keep up to the speed of normal browser; never goes below the average speed**
 
 ![as powerfull as chrome](https://user-images.githubusercontent.com/69463173/229422703-26f52fe7-f087-4f95-8fb2-cc93b8ed1076.png)
 
 ### > Chrome eats RAM, Crora Doesn't
-**Everyone know Chrome is a memory eater and uses a lot of memory, crora doesn't - here is 10 tabs opened in Chrome vs Crora**
+**Everyone know that Chrome is a memory eater and uses a lot of memory, Crora doesn't - Here is 10 tabs opened in Chrome vs Crora**
 
 ![chrome_perfomance](https://user-images.githubusercontent.com/69463173/230302748-88528a34-dda1-4b33-8c46-5c589c0dfd01.png)
 

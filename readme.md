@@ -44,6 +44,9 @@ Our Mission is to stop other company using your information as money without you
 ### > Chrome eats RAM, Crora Doesn't
 **Everyone know Chrome is a memory eater and uses a lot of memory, crora doesn't - here is 10 tabs opened in Chrome vs Crora**
 
+![chrome_perfomance](https://user-images.githubusercontent.com/69463173/230302748-88528a34-dda1-4b33-8c46-5c589c0dfd01.png)
+
+![crora_perfomance](https://user-images.githubusercontent.com/69463173/230302461-5fcfd252-637c-472c-a89f-0d281de59d17.png)
 
 ### > It is made for both hackers and programmers
 

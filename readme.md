@@ -1,6 +1,4 @@
 ---
-layout: default
-title:  Home | Crora Browser
 typewriter: true
 ---
 

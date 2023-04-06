@@ -9,6 +9,7 @@
     <script>
             var i = 0;
             var speed = 70; // speed of typing (in milliseconds)
+            var isCursorThere = false;
             function typeWriter() {
                 var txt = 'Experience the Internet without boundaries with Crora Browser.';
                 if (i < txt.length) {
@@ -18,10 +19,11 @@
                     setTimeout(typeWriter, speed);
                 }
                 // add cursor after text
-                if (i <= txt.length) {
+                if (i == txt.length && isCursorThere == false) {
                     var cursor = document.createElement("span");
                     cursor.classList.add("cursor");
                     document.getElementById("typewriter").appendChild(cursor);
+                    isCursorThere = true
                 }
             }
             window.onload = function () {

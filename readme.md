@@ -4,10 +4,12 @@ This is a Ethical Hacking browser, it's has extreme privacy, even the websites y
 > **Note**
 > Please look at [EULA](https://crora-browser.github.io/EULA) - [Privacy Policy](https://crora-browser.github.io/privacy_policy) before you proceed.
 
+## Our Mission~()
+Our Mission is to stop other company using your information as money without your knowledge and some small companies who track you, sometimes gets leaked with your personal information, our browser is made to give you 100% privacy and let you decide, what you do on the internet, most of the software that you use get some sort of information about you ranging from what computer you're using to what is you IP, Location, ISP etc. So we are hoping that we can change has much as people possible to privacy focused browser. We think you will help us.
+
 ---
 
 ## Features~()
-As We Talked early
 
 ### > Better speed than chrome
 

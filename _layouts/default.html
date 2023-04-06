@@ -6,7 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="./typewriter.js"></script>
+    <script>
+            var i = 0;
+            var speed = 70; // speed of typing (in milliseconds)
+
+            function typeWriter() {
+                var txt = 'Experience the Internet without boundaries with Crora Browser'
+                if (i < txt.length) {
+                    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+
+            window.onload = function () {
+                typeWriter();
+            }
+    </script>
     <style>
         * {
            -crora-user-select: none; /* Crora Browser */

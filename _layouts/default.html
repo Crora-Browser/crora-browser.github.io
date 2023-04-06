@@ -10,7 +10,7 @@
             var i = 0;
             var speed = 70; // speed of typing (in milliseconds)
             function typeWriter() {
-                var txt = 'Experience the Internet without boundaries with Crora Browser';
+                var txt = 'Experience the Internet without boundaries with Crora Browser.';
                 if (i < txt.length) {
                     document.getElementById("typewriter").innerHTML += txt.charAt(i);
                     i++;
@@ -102,8 +102,10 @@
 
     <div class="container">
         <section id="main_content">
-            <h2 id="typewriter"></h2>
-            <hr>
+            {% if page.typewriter %}
+                <h2 id="typewriter"></h2>
+                <hr>
+            {% endif %}
             {{ content }}
         </section>
     </div>

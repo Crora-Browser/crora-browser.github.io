@@ -8,19 +8,28 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script>
             var i = 0;
+            var current_text_index = 0;
+            var list_of_texts = [
+                'Experience the Internet without boundaries with Crora Browser.',
+                'Your browser, your rules, your Crora',
+                'Explore without limits, with Crora',
+                'Welcome to browsing, reimagined aka Crora Browser',
+                'A browser designed for the modern era, The Crora Browser'
+            ]
+            var crora_spot = [46, 30, 29, 37, 42]
             var speed = 70; // speed of typing (in milliseconds)
             var cursorElem = null;
             var cursorPosition = 0;
 
             function typeWriter() {
-                var txt = 'Experience the Internet without boundaries with Crora Browser.';
+                var txt = list_of_texts[current_text_index];
                 if (i < txt.length) {
                     // remove the previous cursor
                     if (cursorElem != null) {
                         cursorElem.remove();
                     }
                     
-                    var color = (i <= 46) ? '#B4E753' : 'inherit'; // set color based on index
+                    var color = (i <= crora_spot[current_text_index]) ? '#B4E753' : 'inherit'; // set color based on index
                     document.getElementById("typewriter").innerHTML += '<span style="color:' + color + '">' + txt.charAt(i) + '</span>';
                     i++;
 
@@ -33,10 +42,21 @@
                     cursorPosition = i;
                     setTimeout(typeWriter, speed);
                 }
+                current_text_index++
             }
-            window.onload = function () {
-                typeWriter();
+
+            function play_list() {
+                typeWriter()
+                setTimeout(play_list, 2000)
+
+                typeWriter()
+                setTimeout(play_list, 2000)
+
+                typeWriter()
+                setTimeout(play_list, 2000)
             }
+
+            window.onload = play_list
     </script>
     <style>
         * {

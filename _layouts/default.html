@@ -16,12 +16,12 @@
                     i++;
                     setTimeout(typeWriter, speed);
                 }
-                // add cursor after text
-                if (i == txt.length) {
-                    var cursor = document.createElement("span");
-                    cursor.classList.add("cursor");
-                    document.getElementById("typewriter").appendChild(cursor);
-                }
+                // // add cursor after text
+                // if (i == txt.length) {
+                //     var cursor = document.createElement("span");
+                //     cursor.classList.add("cursor");
+                //     document.getElementById("typewriter").appendChild(cursor);
+                // }
             }
             window.onload = function () {
                 typeWriter();
@@ -60,7 +60,6 @@
             text-align: center;
         }
         .cursor {
-          cursor: none;
           display: inline-block;
           vertical-align: middle;
           width: 0.3em;

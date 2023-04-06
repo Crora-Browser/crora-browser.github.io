@@ -9,16 +9,20 @@
     <script>
             var i = 0;
             var speed = 70; // speed of typing (in milliseconds)
-
             function typeWriter() {
-                var txt = 'Experience the Internet without boundaries with Crora Browser'
+                var txt = 'Experience the Internet without boundaries with Crora Browser';
                 if (i < txt.length) {
                     document.getElementById("typewriter").innerHTML += txt.charAt(i);
                     i++;
                     setTimeout(typeWriter, speed);
                 }
+                // add cursor after text
+                if (i == txt.length) {
+                    var cursor = document.createElement("span");
+                    cursor.classList.add("cursor");
+                    document.getElementById("typewriter").appendChild(cursor);
+                }
             }
-
             window.onload = function () {
                 typeWriter();
             }
@@ -54,6 +58,21 @@
         }
         #typewriter{
             text-align: center;
+        }
+        .cursor {
+          display: inline-block;
+          vertical-align: middle;
+          width: 0.3em;
+          height: 1.1em;
+          background-color: #000;
+          margin-left: 2px;
+          animation: blink 0.7s infinite;
+        }
+        
+        @keyframes blink {
+          50% {
+            opacity: 0;
+          }
         }
     </style>
     {% include head-custom.html %}

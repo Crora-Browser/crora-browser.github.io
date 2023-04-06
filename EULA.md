@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  EULA | Crora Browser
-typewriter: false
+typewriter: true
 ---
 
 End User License Agreement (EULA) for Crora Browser

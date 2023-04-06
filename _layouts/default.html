@@ -11,18 +11,26 @@
             var current_text_index = 0;
             var list_of_texts = [
                 'Experience the Internet without boundaries with Crora Browser.',
-                'Your browser, your rules, your Crora',
-                'Explore without limits, with Crora',
-                'Welcome to browsing, reimagined aka Crora Browser',
-                'A browser designed for the modern era, The Crora Browser'
+                'Your browser, your rules, your Crora.',
+                'Explore without limits, with Crora.',
+                'Welcome to browsing, reimagined aka Crora Browser.',
+                'A browser designed for the modern era, The Crora Browser.',
+                'A browser that understands you, The Crora Browser.',
+                'Discover the web\'s hidden gems with the help of Crora Browser.',
+                'Surf the web your way with Crora Browser.'
             ]
-            var crora_spot = [46, 30, 29, 37, 42]
+            var crora_spot = [46, 30, 28, 35, 42, 34, 47, 26]
             var speed = 70; // speed of typing (in milliseconds)
             var cursorElem = null;
             var cursorPosition = 0;
 
+            function sleep(time) {
+                return new Promise((resolve) => setTimeout(resolve, time));
+            }
+
             function typeWriter() {
                 var txt = list_of_texts[current_text_index];
+                if (txt == undefined) return;
                 if (i < txt.length) {
                     // remove the previous cursor
                     if (cursorElem != null) {
@@ -40,13 +48,15 @@
                     document.getElementById("typewriter").appendChild(cursor);
                     cursorElem = cursor;
                     cursorPosition = i;
+
                     setTimeout(typeWriter, speed);
                 }
-                current_text_index++
             }
 
             function play_list() {
-                typeWriter()
+                var randomNumber = Math.floor(Math.random() * list_of_texts.length);
+                current_text_index = randomNumber
+                typeWriter();
             }
 
             window.onload = play_list

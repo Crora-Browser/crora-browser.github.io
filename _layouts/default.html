@@ -18,16 +18,11 @@
                     setTimeout(typeWriter, speed);
                 }
                 // add cursor after text
-                if (i == txt.length) {
+                if (i <= txt.length) {
                     var cursor = document.createElement("span");
                     cursor.classList.add("cursor");
                     document.getElementById("typewriter").appendChild(cursor);
                 }
-                deleteCursor() // just delete 1 cursor
-            }
-            function deleteCursor() {
-              var elements = document.getElementsByClassName("cursor");
-              elements[0].remove();
             }
             window.onload = function () {
                 typeWriter();

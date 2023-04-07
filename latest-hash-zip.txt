@@ -1,3 +1,6 @@
+Crora Browser Version:
+    v0.0.1 Alpha (Early Launch)
+
 Zip Archive Hash:
     CRC32    : 0E119E0E
     MD5      : 6A7C0F2CE54C4DF1F4BE12F78EFCAFD1

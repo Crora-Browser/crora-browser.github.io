@@ -70,9 +70,30 @@
            -ms-user-select: none; /* IE/Edge */
            user-select: none; /* Non-prefixed version */
         }
-        body{
-            background: rgb(40,121,175);
-            background: linear-gradient(135deg, rgb(33, 99, 143) 0%, rgb(114, 148, 52) 100%);
+        body  {
+            background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+            background-size:cover;
+            -webkit-animation: slidein 100s;
+            animation: slidein 100s;
+
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;              
+        }
+
+        @-webkit-keyframes slidein {
+            from {background-position: top; background-size:3000px; }
+            to {background-position: -100px 0px;background-size:2750px;}
+        }
+
+        @keyframes slidein {
+            from {background-position: top;background-size:3000px; }
+            to {background-position: -100px 0px;background-size:2750px;}
         }
         #a-title{
             color: #3498db;

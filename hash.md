@@ -1,4 +1,4 @@
 ---
 layout: hash
-title: Hash | Crora Browser
+title: Hash
 ---

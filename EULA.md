@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  EULA | Crora Browser
+title:  EULA
 ---
 
 End User License Agreement (EULA) for Crora Browser

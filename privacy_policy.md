@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Privacy Policy
-typewriter: true
 ---
 
 Privacy Policy for Crora Browser

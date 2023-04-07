@@ -18,8 +18,8 @@ nav:
   - title: EULA | Crora Browser
     url: /EULA/
   - title: Privacy Policy | Crora Browser
-  - title: Hash | Crora Browser
-    url: /hash/
     url: /privacy_policy/
+  - title: Hashes | Crora Browser
+    url: /hash/
   - title: Engine | Crora Browser
     url: /engine/

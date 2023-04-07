@@ -60,15 +60,6 @@
                 typeWriter();
             }
 
-            document.querySelectorAll('.firefly').forEach(firefly => {
-                const x = Math.random() * window.innerWidth;
-                const y = Math.random() * container.innerWidth;
-                const duration = Math.random() * 10 + 5;
-                firefly.style.left = `${x}px`;
-                firefly.style.top = `${y}px`;
-                firefly.style.animationDuration = `${duration}s`;
-            });
-
             window.onload = play_list
 
     </script>
@@ -156,19 +147,6 @@
             </section>
         </div>
     </header>
-    
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
-    <div class="firefly"></div>
     
     <div class="container">
         <section id="main_content">
